@@ -1,6 +1,6 @@
 # Utopian Tree
 
-### Problem
+## Problem
 
 The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height. Each summer, its height increases by 1 meter.
 
@@ -9,14 +9,20 @@ A Utopian Tree sapling with a height of 1 meter is planted at the onset of sprin
 For example, if the number of growth cycles is `n=5`, the calculations are as follows:
 
 > Period  Height
+>
 > 0          1
+>
 > 1          2
+>
 > 2          3
+>
 > 3          6
+>
 > 4          7
+>
 > 5          14
 
-### Function Description
+## Function Description
 
 Complete the utopianTree function in the editor below.
 
@@ -24,34 +30,40 @@ utopianTree has the following parameter(s):
 
 * int n: the number of growth cycles to simulate
 
-### Returns
+## Returns
 
 * int: the height of the tree after the given number of cycles
 
-### Input Format
+## Input Format
 
 The first line contains an integer, , the number of test cases.
 `t` subsequent lines each contain an integer, , the number of cycles for that test case.
 
-### Constraints
+## Constraints
 
 `1<=t<=10`
+
 `0<=n<=60`
 
-### Sample Input
+## Sample Input
 
 > 3
+>
 > 0
+>
 > 1
+>
 > 4
 
-### Sample Output
+## Sample Output
 
 > 1
+>
 > 2
+>
 > 7
 
-### Explanation
+## Explanation
 
 There are 3 test cases.
 
