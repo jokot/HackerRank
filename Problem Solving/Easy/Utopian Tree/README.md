@@ -8,19 +8,15 @@ A Utopian Tree sapling with a height of 1 meter is planted at the onset of sprin
 
 For example, if the number of growth cycles is `n=5`, the calculations are as follows:
 
-> Period  Height
->
-> 0          1
->
-> 1          2
->
-> 2          3
->
-> 3          6
->
-> 4          7
->
-> 5          14
+```bash
+Period  Height
+0          1
+1          2
+2          3
+3          6
+4          7
+5          14
+```
 
 ## Function Description
 
@@ -47,21 +43,20 @@ The first line contains an integer, , the number of test cases.
 
 ## Sample Input
 
-> 3
->
-> 0
->
-> 1
->
-> 4
+```bash
+3
+0
+1
+4
+```
 
 ## Sample Output
 
-> 1
->
-> 2
->
-> 7
+```bash
+1
+2
+7
+```
 
 ## Explanation
 
